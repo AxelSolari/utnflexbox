@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+
+.cuadradoGrande {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+.father {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.cuadrado1 {
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    background-color: red;
+    margin-top: 10px;
+}
+.cuadrado2 {
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    background-color: blue;
+}
+.cuadrado3 {
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    background-color: green;
+}
